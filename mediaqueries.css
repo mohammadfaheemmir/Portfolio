@@ -1,0 +1,123 @@
+@media (max-width: 1000px) {
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #DEE1E1;
+        transition: top 1s ease 0s;
+        display: none;
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav .openMenu {
+        display: block;
+    }
+
+    nav .mainMenu li a:hover {
+        background: none;
+        color: #7f643c;
+    }
+
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+
+    /* About Section */
+
+    .about-me {
+        flex-direction: column;
+        align-items: flex-center;
+        margin-left: 30px;
+    }
+
+    .about-left {
+        margin-top: 80px;
+    }
+
+    .about-image {
+        height: 300px;
+        width: 300px;
+        border-radius: 20px 180px;
+    }
+    
+
+    /* About Developer */
+
+    .about-developer {
+        flex-direction: column;
+    }
+
+    .developer-para {
+        width: 300px;
+    }
+    
+    .developer-image {
+        height: 250px;
+        width: 300px;
+    }
+
+    /* Developer links */
+
+    .developer-links {
+        flex-direction: column;
+    }
+
+    .personal-details {
+        width: 100%;
+    }
+
+    .social-links {
+        width: 100%;
+    }
+
+    /* Skills */
+
+    .developer-skills {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .active-1 {
+        width: 300px;
+    }
+
+    /* Quote Section */
+
+    .quote {
+        margin-top: 50px;
+        background-color: #F4FFF0;
+    }
+    
+    .quote-para {
+        width: 250px;
+        background-color: #F4FFF0;
+        height: 500px;
+    }
+
+    /* Card */
+
+    .article-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Contact Form */
+    .contact-form {
+        width: 300px;
+    }
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="/Web/Blog/style/mediaqueries.css">
+</head>
+    
+</body>
+</html>
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav>
+        <div class="logo"><h1>Selena Gomez.</h1></div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-x-twitter"></i>
+                <i class="fab fa-github"></i>
+            </span>
+        </ul>
+    </nav>
+
+    <section class="about-me">
+        <div class="about-left">
+            <div class="about-text-container">
+                <h1 class="about-heading">Hello, Everyone</h1>
+                <p class="about-para">My Name is Salena Gomez welcome to my portfolio.</p>
+                <p class="about-development">
+                    l'm a Front End Developer.
+                </p>
+                <button class="about-btn">About Me</button>
+            </div>
+        </div>
+
+        <div class="about-right">
+            <img src="./images/about.png" alt="About Image" class="about-image">
+        </div>
+    </section>
+
+    <section class="about-developer">
+        <div class="left-developer">
+            <img src="./images/developer.jpg" alt="" class="developer-image">
+        </div>
+        <div class="right-developer">
+            <h1 class="developer-heading">About Me</h1>
+            <p class="developer-para"> 
+                "Experienced Front-End Developer with a rich 3-year journey crafting captivating and responsive web interfaces. Proficient in HTML, CSS, JavaScript, and modern frameworks. Aesthetic sense, usability focus, and a proven track record in delivering seamless user experiences across diverse projects."
+            </p>
+        </div>
+    </section>
+
+    <section class="developer-links">
+        <div class="personal-details">
+            <div class="developer-name personal-info">
+                <i class="fa-solid fa-user"></i>
+                <p>Salena Gomez</p>
+            </div>
+
+            <div class="developer-dob personal-info">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p>22 July 1992</p>
+            </div>
+
+            <div class="developer-location personal-info">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>4600 Encino Avenue, Los Angeles, 91356, California, United States</p>
+            </div>
+
+            <div class="developer-phone personal-info">
+                <i class="fa-solid fa-phone"></i>
+                <p>000122028-392-1-2</p>
+            </div>
+
+            <div class="developer-mail personal-info">
+                <i class="fa-solid fa-envelope"></i>
+                <p>salena@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <div class="figma-link developer-social-links">
+                <i class="fa-brands fa-figma"></i>
+                <a href="#" style="text-decoration: none; color: black;"><p>@selena</p></a>
+            </div>
+
+            <div class="git-hub-link developer-social-links">
+                <i class="fa-brands fa-x-twitter"></i>
+                <p>@Salena07</p>
+            </div>
+
+            <div class="git-hub-link developer-social-links">
+                <i class="fa-brands fa-instagram"></i>
+                <p>@Salena07</p>
+            </div>
+
+            <div class="git-hub-link developer-social-links">
+                <i class="fa-brands fa-github"></i>
+                <p>@Salena</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="developer-skills">
+        <div class="figma-skill skill-page">
+            <i class="fa-brands fa-figma skill-base"></i>
+            <h6>Figma</h6>
+        </div>
+
+        <div class="html-skill skill-page">
+            <i class="fa-brands fa-html5 skill-base"></i>
+            <h6>Html5</h6>
+        </div>
+
+        <div class="css-skill skill-page">
+            <i class="fa-brands fa-css3-alt skill-base"></i>
+            <h6>CSS3</h6>
+        </div>
+
+        <div class="js-skill skill-page">
+            <i class="fa-brands fa-js skill-base"></i>
+            <h6>JS</h6>
+        </div>
+
+        <div class="react-skill skill-page">
+            <i class="fa-brands fa-react"></i>
+            <h6>React</h6>
+        </div>
+    </section>
+
+    <section class="creation">
+        <div class="creation-text">Creation</div>
+        <div class="dash"></div>
+    </section>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="images/1.jpg" id="content1" class="active active-1">
+            <img src="images/2.jpg" id="content2" class="active-1">
+            <img src="images/3.jpg" id="content3" class="active-1">
+            <img src="images/4.jpg" id="content4" class="active-1">
+        </div>
+        <div class="dot-container">
+            <button onclick = "dot(1)"></button>
+            <button onclick = "dot(2)"></button>
+            <button onclick = "dot(3)"></button>
+            <button onclick = "dot(4)"></button>
+        </div>
+        <!-- <button id="prev" onclick="prev()"> &lt; </button>
+        <button id="next" onclick="next()"> &gt; </button> -->
+    </div>
+
+    <section class="quote">
+        <div class="quote-para">
+            <p>"Coding is the art of turning imagination into reality, one line of code at a time—where creativity meets functionality." 🚀💻</p>
+        </div>
+    </section>
+
+    <section class="creation article-creation">
+        <div class="creation-text articles">Articles</div>
+        <div class="dash"></div>
+    </section>
+
+    <section class="article-box">
+        <div class="card">
+            <img src="./images/card1.jpg" alt="Card Image">
+            <div class="card-content">
+                <div class="card-title">Article Title</div>
+                <div class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images/card2.jpg" alt="Card Image">
+            <div class="card-content">
+                <div class="card-title">Article Title</div>
+                <div class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images/card3.jpg" alt="Card Image">
+            <div class="card-content">
+                <div class="card-title">Article Title</div>
+                <div class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./images/card4.jpg" alt="Card Image">
+            <div class="card-content">
+                <div class="card-title">Article Title</div>
+                <div class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <div class="form-center">
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>All &copy; rights are reserved 2024</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+    <script src="https://kit.fontawesome.com/a366a9bfef.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
